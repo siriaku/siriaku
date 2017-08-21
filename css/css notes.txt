@@ -1,0 +1,146 @@
+syntax is:
+
+<name of the element>{
+  <style>:<value>;
+}
+example:
+body{
+ color: white;
+}
+
+there are 3ways you can write a css:
+1.attribute/inline - this is given 1st priority
+2.internal - this is given the second priority
+3.external - this is given the least priority
+
+relative path :  ../10_11_32/fff.jpg
+absolute path : c://uiclass2016/uiclass/fff.jpg
+
+syntax of attribute/inline:
+style="<style>:<value>;<style>:<value>"
+
+syntact for internal and external style:
+<name of the element>{
+   <style>:<value>;
+}
+===============================================
+which is the best place to write styles?
+head
+-----------------------------------------------------
+browsers understand RGB color space (red green blue)
+
+0 - 255
+
+red: 150
+green : 150
+blue : 0
+
+border:
+border-style
+border-color
+border-image
+border-size
+border-width
+---------------------
+the convention is:
+border,style,color(2px solid #000)
+border:<border><style><color>
+----------------
+2.display:
+display is used to determine the display nature of the element.
+there are several ways to display an element:
+ 	1. inline
+	2.block
+	3.inline-block
+        4.table
+	5.flex
+	6.none
+3.we can capture the attributes of html in our css file to apply styles to that perticular elements.
+
+if there is id in html then use # in css
+
+<element>[] -> target a specific <element>
+
+every element in html has a background. the styles to background are similar to border
+
+in css the comment is /*--------------*/
+-------------------
+
+ids canbe targetted using '#' its an unique
+
+# -> id
+. -> class
+
+class attribute is used to share the same value across more than one elements/tages
+
+Box model in class:
+it creates a virtual "rectangular box" around the element which can be manipulated
+
+border-style
+border-width
+border-color
+
+border: 2px(width) solid(style) #ff0000(color)
+
+margin-left
+margin-right
+margin-top
+margin-bottom
+
+border-radius,border,padding,   margin: 5px 2px 10px 5px;
+	(top,right,bottom,left)
+standardization was introduced in css box model and we have to follow.
+margin: 50px 30px 50px 30px; this is equivalent to margin: 50px 30px;
+
+border-radius:
+
+border-top-left-radius
+border-top-right-radius
+
+if we want to get element center use margin-left:auto; margin-right:auto;
+
+in css we have certain styles to break off from the document flow(parent-child flow)
+1.float - it breaks off from the document flow and puts the element either left or in right. it doest not support vertivcal break offs.
+float: left
+float: right
+float: none
+
+2.position - it too breaks off from the document flow but it maintains its document flow
+there are several options for positions:
+	1. relative  -- this is equivalent to saying that no position is needed
+
+	2. fixed-- this fixes the element at that position regardless of document flow
+	3. absolute-- this breaks off from the document flow and can be placed both vertically and horizontally using:
+  top
+  bottom
+  left
+  right
+
+if i used fixed it fixes the element. if i use absolute we can move the elemnts using helper calsses like top bottom left and right
+
+what is the style to put two divs side by side: float left and float right.
+since div are block left elemtnts. 
+width: inherit ----- block level elemet which use all the space 
+
+
+different ways of selecting an element:
+
+1<parent> <child>
+2. nth-child
+there are several properties when we add (:) to an element in css:
+ 1.hover
+ 2.focus
+ 3.blur
+ 4.visited
+ 5.nth-child
+ 6.first-child
+
+<ul>
+   <li></li>
+   <li></li>
+</ul> 
+
+
+
+
+

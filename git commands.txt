@@ -1,0 +1,49 @@
+-- when we put code in a server then that server is called as repositry.
+versions of repositry
+ --svn- subversion control system (downloading the entire branches into local mechine) , trunk
+
+
+  
+ --git-- version control system(only one master branch)
+
+
+comands--
+mkdir create a new directory
+chmod -R 777<directory name>: gives read/write permissions to <directory name>
+cd  <directory name> : goes inside the <directory>
+git clone : git clone <url>  ---to clone 
+ls-- list of child directory
+git status : it shows status about the repositry
+cd ..  takes out from current direcotry
+git remote add origin <url> --- if you remove .git folder accidently to get back
+get init --- to intilize the repositry 
+get commit -m "intial commit of file README.md"
+git add README.md
+git commit -m "adding new file README.md"
+git pull upstream master 
+git push updtream master
+
+
+to get back removed .git file
+git init
+git remote add origin 
+get remote add origin <url>
+git add README.md
+git commit -m "newly added readme file"
+git pull origin master --allow-unrelated-histories 
+git push origin master
+git add. (to add all files) 
+git remote -v
+git remote add upstream <url>
+git fetch upstream -v
+git merge upstream/master
+
+
+to add files 
+1. git add<filename>
+2. git status (to check the status of the local git respository)
+3. git commit -m "<comment for the changes">
+4. git pull origin <branch name>
+5. gut push origin <branch name>
+
+hi

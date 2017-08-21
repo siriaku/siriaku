@@ -1,0 +1,152 @@
+UI types:
+1. design phase-- design a website.
+(buttons, navigation)
+2. development phase--
+   Markup language(html)
+  casecading language(css)
+  java script.
+
+
+how a website works?
+when ever we enter the url in browser. browser create a tunnel through which server which we are connecting to server to send all files into my mechine and then broswer put that files into cache memory and then browser will go to that cache memory and it try to render that website.
+
+
+html is one of its tool which will tell the browser what to render the file that we just got from tunnel 
+
+1.created a tunnel
+2.downlod all files into cache memory
+3.then browser looks for index file and it read html file one line after the other in a sequential manner from top to bottom and it render the file 
+
+<html> has only 2 child elements heady and body
+
+difference between html and html5
+1.html5 introduced new features and new elements like <video> <audio> <section> <artical>
+2.html5 introduced concept of symentrical html
+3.intorduced media
+4.introduced concept of stroges 
+5.html5 supports both utf-8 and utf-16
+
+why do we have to use html5?
+it is important to mention the doctype and the doctype for html5 is:
+<!DOCTYPE html>
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+  <HEAD>
+    
+  </HEAD>
+  <BODY>
+    
+  </BODY>
+</HTML>
+
+
+
+garbage rendering is called as "quirks mode" in browsers language.
+
+browsers interpet the elements via two ways:
+1.block level elements: has dimensions.
+2.inline level element: doesnot have dimentions.it takes the dimensions from its child element
+
+examples of block level elements are:
+1.body
+2.div short for divisions
+3.section,article, header,footer
+
+examples of inline are:
+1.span
+2.a
+3.image
+
+in html5, a new concept was introduced called trinity
+<article>
+<header></header>
+<section>
+   <article>
+     <header></header>
+     <section></section>
+     <footer></footer>
+   </artical>
+</section>
+<footer></footer>
+</article>
+
+h1,h2,h3,h4,h5,h6
+
+there are two ways of having lists in html:
+1.unordered list
+2.ordered list
+
+the elements <ul> and <ol> can have only one child elements and that is <li>
+
+sementic html:
+
+examples: non-symantic --- <div< <span>
+          sementic -------- <form> <table> <artical>
+
+
+what is attribute?
+an attribute in html basically describes its characteristics.
+there are several attributes available for us but few are standard for all elements:
+1.id - describes the uniqueness of the element
+2.class- this shares common values between elements.
+
+<attribut name>="value"
+example:
+<header id="heading"></header>
+
+adding comments in html.
+comments- these are helpful tips left by the developer
+to comment a line in html we use <!--comment-->
+
+there are two main compontes with which html gets rendered by the browser:
+1. tag - a tag has closing tag name ex: <header></header>
+2 elements - elements in html are fields which accept some sort of inputs. they dont have a closing field ex: <img> <input>
+<input type="text"/>
+checkbox
+radio
+button
+password
+email
+every element has a required attributed which needs to be added at any cost 
+
+newLicenceForm : camel casing in programming language 
+
+forms:
+<form name="newLicenceForm">
+ <label for="firstname">Applicants first name </lable>
+ <input type="text" id="firstName" name="firstName" placeholder="firstname/">
+
+</form>
+
+
+
+every input field must have "id"  "name" attribute
+
+
+head holds the meta data.
+A meta data is nothing but data about data.
+
+head tages:
+
+title
+style
+script
+link
+base
+meta
+
+-----------------------------------
+canvas: which is used to draw graphics
+svg: svg element is a container for svg graphics(Scalable vector graphics)
+video:
+   <video controls>
+     <source src="#" type="video/mp4">
+   </video>
+audio:
+  <audio controls>
+    <source src="#" type="audio/mp3">
+  </audio>
+
+

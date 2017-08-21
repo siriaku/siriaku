@@ -1,0 +1,65 @@
+.container{
+margin-top:15px;
+}
+.tab-pane{
+	padding:10px;
+	border-right:1px solid gray;
+	border-left:1px solid gray;
+	border-bottom:1px solid gray;
+}
+.tguide{
+	padding-bottom:30px;
+	
+	
+	
+}
+.services{
+	background-color:lightgreen;
+	
+	
+}
+.fa{
+	
+	
+color:blue;
+}
+.bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+  	#bird1
+{
+    color:black;
+    display:inline-block;
+	float:left;
+
+}
+#bird2
+{
+    color:black;
+    display:inline-block;
+	float:center;
+}
+#bird3
+{
+    color:black;
+    display:inline-block;
+    clear:none;
+	float:right;
+}
